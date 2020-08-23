@@ -1,4 +1,4 @@
-#Reddit-MemeApi-App
+# Reddit-MemeApi-App
 
 JSON API for a random meme scraped from reddit.
 
