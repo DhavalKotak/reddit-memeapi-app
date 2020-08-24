@@ -30,7 +30,7 @@ class Meme extends Component {
     render() {
         return(
         <Container fluid>
-            <Button onClick={this.fetchMeme} className="fetchButton">Get Meme</Button><br/><br/>
+            <Button onClick={this.fetchMeme} className="fetchButton" disabled={this.state.loading ? true : false}>Get Meme</Button><br/><br/>
             {this.state.loading ? 
             <div>
                 <br/><br/><br/>
