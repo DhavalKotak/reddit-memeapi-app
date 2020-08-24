@@ -33,6 +33,11 @@ img{
   color: #f8571d; 
   font-size: 1.3rem;
 }
+
+.fetchButton:disabled{
+  background: #f8571d;
+}
+
 .fetchButton:hover, .fetchButton:focus{
   background: #f8571d;
   color: white;
