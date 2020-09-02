@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "74001cc42eeb0d4e2cfaf19c31715cdd",
+    "revision": "86ae933eac260a7ffba2df9ce1b094f7",
     "url": "/reddit-memeapi-app/index.html"
   },
   {
-    "revision": "93ca7a50adbf7fa042ea",
+    "revision": "1b8c64a61d66e207ea05",
     "url": "/reddit-memeapi-app/static/css/main.ed43be48.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reddit-memeapi-app/static/js/2.b0567e28.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "93ca7a50adbf7fa042ea",
-    "url": "/reddit-memeapi-app/static/js/main.401f1ea0.chunk.js"
+    "revision": "1b8c64a61d66e207ea05",
+    "url": "/reddit-memeapi-app/static/js/main.6e41b463.chunk.js"
   },
   {
     "revision": "9d890bf881e154af07db",
