@@ -16,14 +16,23 @@ class Meme extends Component {
 
     fetchMeme() {
         this.setState({loading: true})
-        fetch("https://meme-api.herokuapp.com/gimme")
-            .then(response => response.json())
+        fetch("https://meme-api.herokuapp.com/gimme")    
+            .then(response => {
+                if(!response.ok) 
+                    throw new Error("Some error occured with the API")
+                    
+                return response.json()
+            })
             .then(data => {
                 this.setState({
                     imgUrl : data.url,
                     title: data.title,
                     loading: false
                 })
+            })
+            .catch(error => {
+                this.setState({loading: false})
+                console.error('There has been a problem with your fetch operation:', error)
             })
     }
 
