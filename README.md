@@ -9,12 +9,14 @@ Example Response:
 
 ```json
 {
-    "postLink": "https://redd.it/iev5y1",
+    "postLink": "https://redd.it/ip6ky8",
     "subreddit": "dankmemes",
-    "title": "That's not very cash money of you, Netflix.",
-    "url": "https://i.redd.it/hqx6ktf5uni51.jpg",
+    "title": "Homo mod homo mod",
+    "url": "https://i.redd.it/sas6c2siy0m51.jpg",
     "nsfw": false,
-    "spoiler": false
+    "spoiler": false,
+    "author": "dydgehdhdhhdhdhd",
+    "ups": 5658
 }
 ```
 
